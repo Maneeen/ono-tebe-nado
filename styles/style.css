@@ -1,0 +1,381 @@
+.header {
+  display: grid;
+  grid-template-columns: 477px 1fr 186px 213px;
+  grid-template-rows: 91px 186px;
+  max-width: 1052px;
+  height: 293px;
+  grid-template-areas:
+    ". . . "
+    "links logo adress";
+}
+
+.header_menu {
+  font-family: "Raleway" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.header_links_list {
+  padding-top: 20px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 137px;
+  padding-left: 51px;
+}
+.header_link_list_item_no_bullet {
+  text-decoration: none;
+  margin-right: 31px;
+}
+
+.logo {
+  grid-area: logo;
+}
+.header_link_active {
+  text-decoration: none;
+}
+.header_link_list_item {
+  margin-right: 36px;
+}
+.data {
+  grid-area: adress;
+  padding-top: 7px;
+}
+.lined {
+  flex-wrap: nowrap;
+  grid-area: num;
+}
+
+.data ul li {
+  list-style-type: none;
+  margin-left: 160px;
+  display: grid;
+  font-size: 18px;
+  display: flex;
+  width: 230px;
+  line-height: 24px;
+}
+.data {
+  display: grid;
+  column-gap: 184px;
+}
+.body {
+  width: 1100px;
+}
+
+.main {
+  width: 1100px;
+}
+
+header img {
+  max-width: 148px;
+  max-height: 105px;
+}
+
+.cover {
+  background-image: url("../images/cover.png");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 757px;
+  background-position: center bottom 50px;
+  background-size: cover;
+  position: relative;
+}
+.logo_title {
+  display: grid;
+  position: absolute;
+  height: 375px;
+  width: 1000px;
+  grid-template-columns: 316px 369px 367px;
+  grid-template-rows: 1fr 119px 131px;
+  margin: 165px 50px 237px 50px;
+}
+.main_title_1 {
+  font-size: 100px;
+  font-weight: 700;
+  color: aliceblue;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  text-transform: uppercase;
+}
+
+.main_title_2 {
+  font-size: 100px;
+
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-weight: 700;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.main_title_3 {
+  font-size: 100px;
+  grid-column: 3/4;
+  grid-row: 3/3;
+  font-weight: 700;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+.additional_info {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 90px;
+  align-self: end;
+  justify-content: space-around;
+  word-spacing: 18px;
+  padding-top: 650px;
+}
+
+.info {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-right: -77px;
+  margin-top: 18px;
+}
+
+.button_1xbet {
+  width: 256px;
+  height: 51px;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: normal;
+  border-color: aliceblue;
+  border: 30px 12px;
+  background-color: transparent;
+  margin-right: -29px;
+  margin-top: 4px;
+}
+
+ul li.lined {
+  text-decoration: underline;
+}
+
+ul li.underlined {
+  text-decoration: underline;
+}
+
+.container ul li {
+  font-size: 18px;
+}
+
+.l1 {
+  margin-right: 8px;
+}
+.l2 {
+  margin-right: 36px;
+}
+
+
+.l4 {
+  margin-left: -30px;
+}
+.l5 {
+  margin-left: 9px;
+}
+.l6 {
+  margin-left: 6px;
+}
+.l7 {
+  margin-left: 36px;
+}
+
+.l8 {
+  margin-left: -102px;
+}
+.l9 {
+  margin-left: 37px;
+}
+.l10 {
+  margin-left: 9px;
+}
+.l11 {
+  margin-left: 6px;
+}
+
+.lots_title {
+  font-family: "Raleway" sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  margin-top: 167px;
+  padding-left: 59px;
+}
+
+.lots {
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1100px;
+  column-gap: 25px;
+  padding: 3px 34px 2px 24px;
+  justify-items: center;
+  position: relative;
+  height: 563px;
+  z-index: 3;
+  flex-wrap: wrap;
+}
+.lot {
+  position: relative;
+  justify-items: center;
+  z-index: 2;
+}
+.title {
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: aliceblue;
+  padding: 50px 40px 0px 40px;
+  z-index: 5;
+  position: relative;
+}
+.paragraf {
+  font-size: 20px;
+  padding-left: 0px;
+  width: 254px;
+  color: aliceblue;
+  z-index: 5;
+  position: relative;
+}
+
+.lot_1 {
+  background-image: url(../images/lot_1.png);
+}
+.lot_2 {
+  background-image: url(../images/lot_2.png);
+}
+
+.lot_3 {
+  background-image: url(../images/lot_3.png);
+}
+
+.title_1 {
+  padding-bottom: 244px;
+}
+.title_2 {
+  padding-bottom: 5px;
+  padding-left: 46px;
+}
+.title_3 {
+  padding-bottom: 99px;
+  padding-left: 46px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: auto;
+}
+.more_info {
+  text-decoration: underline;
+  padding-left: 64px;
+  padding-top: 34px;
+  font-size: 20px;
+}
+
+.krusochek {
+  width: 240px;
+  margin-left: 35px;
+  padding-top: 89px;
+}
+
+.aucsion {
+  max-width: 688px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+
+.about_auc {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: end;
+  display: flex;
+  margin-top: -139px;
+  margin-left: 382px;
+}
+
+.parag {
+  font-size: 20px;
+  position: absolute;
+}
+.paragr_1 {
+  width: 688px;
+  display: flex;
+  margin-top: 7px;
+  margin-left: 387px;
+  text-wrap: balance;
+}
+.paragr_2 {
+  width: 686px;
+  display: flex;
+  margin-top: 151px;
+  margin-left: 384px;
+  font-size: 20px;
+  position: absolute;
+  text-wrap: balance;
+}
+
+.all_together {
+  max-height: 449px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-areas: " adreess links images";
+  padding-top: 511px;
+  column-gap: 185px;
+  padding-left: 50px;
+  padding-right:50px;
+  padding-bottom: 50px;
+  
+}
+
+.footer_adress {
+  text-decoration: none;
+  grid-area: adreess;
+  font-size: 18px;
+  list-style-type: none;
+
+}
+
+.about_footer ul li {
+  list-style-type: none;
+  grid-area: links;
+  font-size: 18px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+
+
+
+.images {
+  grid-area: images;
+  height: 48px;
+
+}
+
+
+
+.dataad{
+  font-size: 18px;
+  
+ 
+}
+
+.dataad ul li{
+  list-style-type: none;
+}
